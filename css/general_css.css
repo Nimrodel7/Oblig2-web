@@ -1,3 +1,4 @@
+/* GENERELLE farger og styler som er basis*/ 
 
 /* Medium - Høy kontrast mellom tekst og bakgrunn gir leselig tekst , s.253 i "HTML & CSS".
 /* Ulike fargetoner, fra svart --> lysere: #0f0f0f, #262626, #3e3e3e,#575757,#6f6f6f,#878787,#9f9f9f,#b7b7b7,#cfcfcf,#e7e7e7,#ffffff
@@ -6,11 +7,24 @@
 /*
 /* Eksempel: alle overskrifter får mørk bakgrunn og lys tekst: */
 
-/*Test for mobil! TEST GJERNE I BROWSERN DIN */ 
+/* BYTT GJERNE FRA VERDANA, men den er relativt vanlig */
 
-@media only screen and (max-width: 320px) {
-	p{
-		margin: 0;
-		color:red;
-	}
-} 
+* {
+	font-family: verdana, sans-serif;
+	color: #000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  background-color: #262626;
+  color:#cfcfcf;
+  text-align: center;
+}
+
+body {
+	margin:0 auto;
+}
+
+article {
+	margin: 2em 2em;
+}
+
