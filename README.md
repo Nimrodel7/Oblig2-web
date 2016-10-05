@@ -1,2 +1,2 @@
 # Oblig2-web
-Vi tar utgangspunkt i www.turisten.no og henter det meste av informasjonen fra brosjyren http://turisten.no/media/2016_MS_Stromsfoss.pdf
+Vi skal gjenskape denne siden: www.turisten.no og henter det meste av informasjonen fra derfra og fra denne brosjyren http://turisten.no/media/2016_MS_Stromsfoss.pdf
