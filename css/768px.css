@@ -1,0 +1,4 @@
+/* SMALL DEVICES, TABLETS */ 
+@media	only	screen	and	(min-width	:	768px)	{  
+  color: green; 
+}
