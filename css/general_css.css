@@ -9,6 +9,10 @@
 
 /* BYTT GJERNE FRA VERDANA, men den er relativt vanlig */
 
+/* hardkoder font-size så ingen nettleseres standarder kan ødelegge */ 
+html {
+	font-size: 16px;
+}
 * {
 	font-family: verdana, sans-serif;
 	color: #000;
@@ -21,10 +25,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 body {
+	background-color: #3e3e3e;
 	margin:0 auto;
 }
 
 article {
 	margin: 2em 2em;
+	background-color: #878787;
 }
 
