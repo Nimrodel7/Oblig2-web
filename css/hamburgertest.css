@@ -18,19 +18,21 @@
 /* Navigation Menu - List items */
 .nav-item {
   /* non-critical appearance styles */
-  width: 200px;
+  width: 100%;
   border-top: 1px solid #111;
   border-bottom: 1px solid #000;
 }
 
 .nav-item a {
   /* non-critical appearance styles */
+  width: 100%;
   display: block;
   padding: 1em;
   background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
   color: white;
   font-size: 1.2em;
   text-decoration: none;
+  text-align: center;
   transition: color 0.2s, background 0.5s;
 }
 
@@ -96,11 +98,11 @@ label[for="nav-trigger"] {
 }
 
 .nav-trigger:checked + label {
-  left: 215px;
+  left: 75%;
 }
 
 .nav-trigger:checked ~ .site-wrap {
-  left: 200px;
+  left: 70%;
   box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
 }
 
