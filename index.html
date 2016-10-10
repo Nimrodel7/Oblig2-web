@@ -6,7 +6,7 @@
 	<title>Haldenkanalen Sluseturer</title>
 	<meta charset="UTF-8">
 
-	<!--<link rel="stylesheet" media="all" type="text/css" href="css/general_css.css">-->
+	<link rel="stylesheet" media="all" type="text/css" href="css/general_css.css">
 	<link rel="stylesheet" media="all" type="text/css" href="css/hamburgertest.css">
 	<!--<link rel="stylesheet" media="screen" type="text/css" href="css/style_min320.css">-->
 
@@ -23,10 +23,11 @@
 	
 	<ul class="navigation">
 		<li class="nav-item"><a>Forsiden</a></li>
-		<li class="nav-item"><a>Bildegalleri</a></li>
+		<li class="nav-item"><a href="galleri.html">Bildegalleri</a></li>
 		<li class="nav-item"><a>Bestill</a></li>
-		<li class="nav-item"><a>Om oss</a></li>
+		<li class="nav-item"><a href="about.html">Om oss</a></li>
 		<li class="nav-item"><a>Kontakt</a></li>
+		<!--http://www.turisten.no/sider/18/kontaktinformasjon-og-partnere/ inneholder linker vi kan bruke et sted-->
 	</ul>
 		
 	<input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -37,12 +38,15 @@
 		<main>
 			<header>
 				<h1>Haldenkanalen Sluseturer</h1>
+				<img src="Bilder/ikoner/ship.svg" alt="Turist båten" />
 			</header>	
-			<img>
-				<i>Linker til sosiale medier</i>	
-			</img>
-	
-			<div>Placeholder, bilde</div>
+	    <div class="socMediaBtn">
+	    	<a href="https://www.facebook.com/haldenkanalensluseturer/">	<img src="Bilder/ikoner/face.svg" alt="Facebook ikon"/>
+	    	</a>
+	    	<a href="https://no.wikipedia.org/wiki/Haldenkanalen"><img src="Bilder/ikoner/wikipedia.svg" alt="wikipedia ikon" /></a>
+	    	<a href="mailto:example@gmail.com"> <img src="Bilder/ikoner/email.svg" alt="email ikon" /></a>
+			
+		</div>
 			<article>
 				<header>
 					<h3>En eventyrlig reise på Haldenkanalen</h3>
@@ -56,7 +60,7 @@
 			</article>
 		</main>
 		<footer>
-			<p>Lagd av Joachim, Magne &lt; Patrick</p>
+			<p>Lagd av Joachim, Magne &amp; Patrick</p>
 		</footer>
 	</div>
 </body>
