@@ -1,5 +1,0 @@
-/*  Extra small devices */
-
-@media	only	screen	and	(min-width	:	480px)	{ 
-  color: yellow;
-} 
