@@ -3,15 +3,15 @@ To do liste, ikke nødvendigvis i rekkefølge:
 1. Lage wireframes for oppsettet på henholdsvis mobil, iPad og større skjermstørrelser.
 2. Finne/ plukket ut relevante bilder
   a) Lage forskjellige størrelser for ulike enheter? Mobilen trenger mindre bilder (spesielt i filstørrelse)
-3. Logoer: SVG eller GIF? 
-5. INNHOLD: produserer innhold til de andre sidene. 
-6. Sitemap : hvordan siden henger sammen, de ulike elementene osv.  
+3. Logoer: SVG. Pga. skalerbarheten og filstørrelsen.
+5. INNHOLD: trenger vi mer? hva isåfall? 
 7. Design: valg av farger/font og størrelser
 8. JavaScript: bli enige om hvordan vi skal skrive variabler (camelCase/cowboykode). 
 8. CSS: 
       a. Benytte Bootstrap (http://getbootstrap.com/css/) eller tilsvarende "frameworks"
-      b. Lage alt manuelt
+      b. Lage alt manuelt - jepp selvfølgelig tar vi det vanskeligste :D
       c. Begynne med mobil breakpoint
+      d. flere CSS3 effekter?
 9. RSS-feed 
 10. BRUKE SEMANTISKE TAGGER
-11. Kart! Vise ruten, få rutebeskrivelser. 
+11. Kart! Vise ruten, få rutebeskrivelser - eventuelt
