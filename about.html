@@ -3,8 +3,8 @@
 <html lang="no">
 
 <head>
-	<title>Haldenkanalen Sluseturer</title>
-	<meta charset="UTF-8">
+	<title> Kontaktinformasjon</title>
+	<meta charset="UTF-8" name="Kontaktinformasjon, kontakt, informasjon, telefon, email, adresse, post" content="Kontaktinformasjon, kontakt, informasjon, telefon, email, adresse, post">
 	<!-- LEGG TIL KLASSER OSV. SE PÅ INDEX.HTML-->
 	<link rel="stylesheet" media="all" type="text/css" href="css/general_css.css">
 	<link rel="stylesheet" media="all" type="text/css" href="css/hamburgertest2.css">
@@ -19,48 +19,65 @@
 </head>
 
 <body>
-	<header>
-		<h1>Om oss</h1>
-	</header>
 	<nav>
-		<ul>
-			<li><a href="index.html">Forsiden</a></li>
-			<li><a href="bilder/galleri.html">Bildegalleri</a></li>
-			<li>Bestill</li>
-			<li>Om oss</li>
-			<li>Kontakt</li>
-		</ul>
+		<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+		<label for="nav-trigger"></label>
+		<nav class="navMenu">
+			<ul class="navigation">
+				<li class="nav-item"><a>Forsiden</a></li>
+				<li class="nav-item"><a>Bildegalleri</a></li>
+				<li class="nav-item"><a>Bestill</a></li>
+				<li class="nav-item"><a>Om oss</a></li>
+				<li class="nav-item"><a>Kontakt</a></li>
+			</ul>		
+		</nav>
 	</nav>
-	<div>
-		<i>Linker til sosiale medier</i>	
+
+
+<div class="site-wrap">
+	<header>
+		<h1>Hvordan du kan kontakte oss!</h1>
+		<img src="Bilder/ikoner/ship2.svg" alt="Turist båten" />
+	</header>
+
+	<div class="socMediaBtn">
+	   	<a href="https://www.facebook.com/haldenkanalensluseturer/">	<img src="Bilder/ikoner/face.svg" alt="Facebook ikon"/>
+	   	</a>
+	    <a href="https://no.wikipedia.org/wiki/Haldenkanalen"><img src="Bilder/ikoner/wikipedia.svg" alt="wikipedia ikon" /></a>
+	    <a href="mailto:example@gmail.com"> <img src="Bilder/ikoner/email.svg" alt="email ikon" /></a>
+		
 	</div>
-	<main>
+<main>
 		<article>
 			<header>
 				<h3>Kontaktinformasjon - legge til små ikoner?</h3>
 			</header>
-			
-			<!--Finne en annen måte å presentere dette på? Kan ha mye i en <footer> på bunnen av en annen side eventuellt. sjekk ut <details> -->
-			<p>Kontaktperson: Jan Tore Skofterud</p>
-			<adress>Besøksadresse: Strømsfoss brygge, 1798 Aremark<br/>
-			 Post: Solvikveien 33, 1630 Gressvik</adress>
-			<p>Telefon, kontor: 930 66 444</p>
-			<p>Telefon, båt: 401 66 444</p>
-			<p>E-post: post@sluseturer.no</p>
-			<p>Sosiale medier: <a href="https://www.facebook.com/haldenkanalensluseturer/?fref=ts">Facebook</a></p>
-			<p></p>
+			<section>
+				<!--Finne en annen måte å presentere dette på? Kan ha mye i en <footer> på bunnen av en annen side eventuellt. sjekk ut <details> -->
+				<p>Kontaktperson: Jan Tore Skofterud</p>
+				<adress>Besøksadresse: Strømsfoss brygge, 1798 Aremark<br/>
+				 Post: Solvikveien 33, 1630 Gressvik</adress>
+				<p>Telefon, kontor: 930 66 444</p>
+				<p>Telefon, båt: 401 66 444</p>
+				<p>E-post: post@sluseturer.no</p>
+				<p>Sosiale medier: <a href="https://www.facebook.com/haldenkanalensluseturer/?fref=ts">Facebook</a></p>
+				<p></p>
+			</section>
 			<section>
 				<h4>Veibeskrivelse</h4>
 				<p>Kjørebeskrivelse til Strømsfoss-brygge og Tistedal-brygge via Ørje: E18 Oslo-Stockholm til Ørje (v/svenskegrensen). Ta av mot Halden på Rv. 21 og følg denne i ca. 20 minutter, ta av mot Strømfoss sluser, 200 m. For ombordstigning ved Tistedal-brygge, kjør ytterligere 35 min. på Rv. 21 mot Halden. Godt skiltet. </p>
 				<p>Kjørebeskrivelse til Tistedal-brygge og Strømsfoss-brygge via Halden: E6 Oslo - Göteborg, ta av mot Halden på Rv. 21. Fra Halden sentrum, følg Rv. 21 mot Ørje i 7 minutter til Tistedal-brygge. For ombordstigning ved Strømsfoss-brygge (Aremark), fortsett på Rv. 21 i ytterligere 35 minutter og ta av mot Strømfoss sluser, 200 m. Godt skiltet.</p>
 			</section>
+
 			<section>
 				<p>Google maps placeholder</p>
 			</section>
 		</article>
+	  </div>
 	</main>
+	
 	<footer>
-		<p></p>
+		<p>Lagd av Patrick, Magne &amp; Joachim</p>
 	</footer>
 </body>
 
