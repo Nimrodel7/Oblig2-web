@@ -16,6 +16,9 @@ article p {
 	font-size:60%;
 	padding: 0.5em 0.2em;
 }
+header picture {
+	max-width: 100%;
+}
 
 .socMediaBtn {
 	/* Endre disse ved breakpoints*/
@@ -58,7 +61,7 @@ header h1,h2,h3{
 	/* FÅR HEADER TIL Å "HENGE" fast øverst på siden */
 	margin:0 auto;
 }
-div header >img{
+/*div header >img{
 	margin: 0.2em;
   max-width: 5em;
   max-height: 5em;
@@ -66,7 +69,7 @@ div header >img{
   left: 50%;
   transform: translateX(-50%);
 
-}
+}*/
 
 article header{
 }
@@ -127,10 +130,10 @@ body {
 		border: 0;
 	}
 	/* SKAL style skiplogoen. se om slektoren kolliderer med noe annet*/
-	div header img{
+	/*div header img{
 		max-width: 5em;
 		max-height: 5em;
-	}
+	}*/
 
 	h1,h2,h3,h4,h5,h6 {
 	  background-color: #262626;
@@ -188,12 +191,12 @@ body {
 		transform: translateY(-5%);
 	}
 	/* Styler skiplogoen*/
-	div >header >img{
+	/*div >header >img{
 		max-width: 10em;
 		max-height: 10em;
 		position: relative;
 
-	}
+	}*/
 
 	div > a >img {
 	max-width: 4em;
