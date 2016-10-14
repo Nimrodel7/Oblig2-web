@@ -1,7 +1,18 @@
-/* GENERELLE farger og styler som er basis*/ 
+/* GENERELLE farger og styler som er basis*/
+/* Hvilke fonter skal vi bruke?
 
-/* Medium - Høy kontrast mellom tekst og bakgrunn gir leselig tekst , s.253 i "HTML & CSS".
- svart --> lysere: #0f0f0f, #262626, #3e3e3e,#575757,#6f6f6f,#878787,#9f9f9f,#b7b7b7,#cfcfcf,#e7e7e7,#ffffff */ 
+/* Eventuelt legge til fler, + en for print
+/* Kanskje noe for landskap/portrett
+/* @import url(mobil.css) (min-width:300px);
+/* @import url(tablet.css) (min-width:600px);
+/* @import url(desktop.css) (min-width:1200px;)
+*/
+@media (min-width:768px and max-width:1024px){
+	h2{
+		color:blue;
+	}
+}
+
 html {
 	font-size: 16px;
 }
@@ -81,9 +92,9 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Bildene - legge inn en transition effekt?*/ 
+/*Bildene - legge inn en transition effekt?*/
 .thumbnails{
-	border-top: 0.2em solid blue;	
+	border-top: 0.2em solid blue;
 	border-bottom: 0.2em solid blue;
 	display: flex;
 }
@@ -110,10 +121,14 @@ body {
 
 
 
-/*For små enheter,max-width gjelder INNTIL 400px */
-@media (min-width: 400px) {
+/*For små enheter,max-width gjelder INNTIL 350px */
+@media (max-width: 350px) {
 	html {
-	font-size: 120%;
+
+	}
+	/* en klasse for ting som skal skjules */
+	.ikkeMobil{
+		display: none;
 	}
 	* {
 		font-family: verdana, sans-serif;
@@ -145,7 +160,6 @@ body {
 		background-color: #3e3e3e;
 		padding: 0;
 		margin:0 auto;
-		margin-top: 20px;
 		font-family: Arial, Helvetica, sans-serif;
 	}
 	.preview img {
@@ -154,8 +168,8 @@ body {
 
 	.thumbnails{
 
-	
-	} 
+
+	}
 
 	.thumbnails img {
 			display: block;
@@ -165,7 +179,7 @@ body {
 	/* SLUTT 400px */
 }
 /* PADDER OG MINDRE SKJERMER*/
-@media (min-width: 620px) {
+@media (min-width: 768px) {
 	*{
 		font-size: 100%;
 	}
@@ -178,16 +192,16 @@ body {
 		margin: 0 auto;
 	}
 	/*SLUTT 620px */
-} 
+}
 
 /* Store widescreens */
-@media (min-width : 1200px)	{
+@media (min-width : 1024px)	{
 	*{font-size: 100%}
 	p {
 		color: black;
 	}
 	/*main header {
-		 Trenger kanskje en under min-width = 600px? Lite mellomrom på toppen 
+		 Trenger kanskje en under min-width = 600px? Lite mellomrom på toppen
 		transform: translateY(-5%);
 	}
 	/* Styler skiplogoen*/
@@ -224,7 +238,7 @@ body {
 		position: relative;
 		bottom: -1.5em;
 	}
-	/*Bildene */ 
+	/*Bildene */
 	.thumbnails{
 		display: flex;
 		background: green;
