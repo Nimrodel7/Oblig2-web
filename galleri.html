@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html lang="no">
+<head>
+<title>Bildegalleri</title>
+<meta charset="UTF-8" name="" content="">
+
+<!-- <link rel="stylesheet" media="all" type="text/css" href="css/hamburgertest2.css"> -->
+<link rel="stylesheet" media="all" type="text/css" href="css/general_css.css">
+
+<style>
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  list-style: none;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+nav {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #555;
+}
+
+ul a {
+  display: block;
+  padding: 20px;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  color: #aaa;
+  text-decoration: none;
+}
+
+ul a:hover {
+  background: #eee;
+}
+
+nav li {
+  float: left;
+  width: 20%;
+  border-right: 1px solid #ddd;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+  
+  .hamburger {
+    padding: 15px;
+    display: block;
+  }
+
+  .line {
+    border-bottom: 4px solid #bbb;
+    width: 35px;
+    margin-bottom: 6px;
+  }
+  
+  .line:last-child {
+    margin-bottom: 0;
+  }
+
+  nav li {
+    width: 100%;
+  }
+  
+  .menu {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s linear;
+  }
+  
+  .slide-down {
+    height: 262px;
+  }
+  }
+</style>
+<script>
+window.onload = startup;
+
+function startup() {
+document.getElementsByClassName("hamburger").onclick = hamburgerclick;
+
+}
+function hamburgerclick(){
+document.getElementsByClassName("menu").slideToggle();
+}
+</script>
+</head>
+<body>
+<body>
+
+<header id="Header">
+    <nav>
+      <div href="#" class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="clearfix menu">
+        <li><a href="#">Forsiden</a></li>
+        <li><a href="#">Bildegalleri</a></li>
+        <li><a href="#">Bestill</a></li>
+        <li><a href="#">Om Oss</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+</header>
+
+<!-- <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+	<label for="nav-trigger"></label>
+	<nav class="navMenu">
+		<ul class="navigation">
+			<li class="nav-item"><a href="#">Forsiden</a></li>
+			<li class="nav-item"><a href="#">Bildegalleri</a></li>
+			<li class="nav-item"><a href="#">Bestill</a></li>
+			<li class="nav-item"><a href="#">Om Oss</a></li>
+			<li class="nav-item"><a href="#">Kontakt</a></li>
+		</ul>
+	</nav> -->
+
+
+
+<div class="site-wrap">
+<section class="gallery" align="center">
+	<h2>Fotogalleri</h2>
+	<p>Her er et galleri med bilder av b&aring;ten og haldenkanalen</p>
+
+	<br />
+	<h2>Bildegalleri</h2>
+	<article class="thumbnails">
+		<div id="wrapping">
+		<img onmouseover="preview.src=image1.src" name="image1" src="bilder/bever.jpg" alt=""/>
+		<img onmouseover="preview.src=image2.src" name="image2" src="bilder/bru.jpg" alt=""/>
+		<img onmouseover="preview.src=image3.src" name="image3" src="bilder/dyreliv.jpg" alt=""/>
+		<img onmouseover="preview.src=image4.src" name="image4" src="bilder/mat.jpg" alt=""/>
+		<img onmouseover="preview.src=image5.src" name="image5" src="bilder/turister.jpg" alt=""/>
+		<img onmouseover="preview.src=image6.src" name="image6" src="bilder/vann.jpg" alt=""/>
+		<img onmouseover="preview.src=image7.src" name="image7" src="bilder/10478130_457601794377260_6330887819160736608_n.jpg" alt=""/>
+		<img onmouseover="preview.src=image8.src" name="image8" src="bilder/10514244_466697903467649_3482696668123091390_o.jpg" alt=""/>
+		<img onmouseover="preview.src=image9.src" name="image9" src="bilder/10553895_465368960267210_7102426024978938501_o.jpg" alt=""/>
+		</div>
+	</article><br/>
+
+	<div class="preview" align="center">
+		<img name="preview" src="bever.jpg" alt=""/>
+		<img src="Bilder/ikoner/play-button.svg" id="arrowright" alt="arrow" onclick="" />
+	</div>
+</section>
+
+</div>
+<button type="button" onclick="showpic(imagenow - 1)">Previous</button>
+<button type="button" onclick="showpic(imagenow + 1)">Next</button>
+
+</body>
+</html>
