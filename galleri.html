@@ -8,6 +8,7 @@
 <link rel="stylesheet" media="all" type="text/css" href="css/general_css.css">
 
 <style>
+/* Prøver ut ny hamburgermeny som dukker opp kun ved lave oppløsninger */
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -91,6 +92,7 @@ nav li:last-child {
 </style>
 <script>
 window.onload = startup;
+/* TBD - Fikse hamburgermeny eller gå tilbake til hamburgertest2 */
 
 function startup() {
 document.getElementsByClassName("hamburger").onclick = hamburgerclick;
@@ -104,6 +106,7 @@ document.getElementsByClassName("menu").slideToggle();
 <body>
 <body>
 
+	<!-- Ny hamburger meny -->
 <header id="Header">
     <nav>
       <div href="#" class="hamburger">
@@ -121,6 +124,7 @@ document.getElementsByClassName("menu").slideToggle();
     </nav>
 </header>
 
+<!-- gammel hamburger meny -->
 <!-- <input type="checkbox" id="nav-trigger" class="nav-trigger" />
 	<label for="nav-trigger"></label>
 	<nav class="navMenu">
@@ -157,12 +161,13 @@ document.getElementsByClassName("menu").slideToggle();
 	</article><br/>
 
 	<div class="preview" align="center">
-		<img name="preview" src="bever.jpg" alt=""/>
+		<img name="preview" src="bilder/bever.jpg" alt=""/>
 		<img src="Bilder/ikoner/play-button.svg" id="arrowright" alt="arrow" onclick="" />
 	</div>
 </section>
 
 </div>
+<!-- Test knapper, skal erstattes med svg -->
 <button type="button" onclick="showpic(imagenow - 1)">Previous</button>
 <button type="button" onclick="showpic(imagenow + 1)">Next</button>
 
