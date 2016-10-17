@@ -35,6 +35,13 @@ header picture {
 	/* Endre disse ved breakpoints*/
 	/* Finne SVGer for andre ikoner*/
 	z-index: 2;
+	align-self: center;
+	transform: translateY(5%);
+
+
+}
+a {
+	display: inline-flex;
 }
 .site-wrap {
 	display: flex;
@@ -44,9 +51,13 @@ header picture {
 	margin-right: auto;
 	background-color: transparent;
 	z-index: 1;
+
+}
+body {
+	background: linear-gradient(to bottom right, #901309,#590402);
 }
 main {
-	background-color: transparent;
+	
 }
 div div a{
 	margin: 0 1em;
@@ -57,7 +68,7 @@ div div a img {
 
 }
 div header {
-	box-shadow: 1px 1px 5px rgba(177,177,236,0.8);
+	
 }
 h1,h2,h3,h4,h5,h6 {
   background-color: #262626;
@@ -66,7 +77,8 @@ h1,h2,h3,h4,h5,h6 {
   text-align: center;
 }
 div > header {
-	background: linear-gradient(to bottom right, grey,white,lightblue,rgba(0,50,255,0.8));
+	/*Bakgrunnen til logo-container */
+	background: linear-gradient(to bottom right, white,#901309,#590402);
 }
 header h1,h2,h3{
 	/* FÅR HEADER TIL Å "HENGE" fast øverst på siden */
@@ -74,6 +86,7 @@ header h1,h2,h3{
 }
 /*div header >img{
 	margin: 0.2em;
+<<<<<<< Updated upstream
   max-width: 5em;
   max-height: 5em;
   position: relative;
@@ -81,6 +94,14 @@ header h1,h2,h3{
   transform: translateX(-50%);
 
 }*/
+=======
+  	max-width: 5em;
+  	max-height: 5em;
+  	position: relative;
+  	left: 50%;
+  	transform: translateX(-50%);
+}
+>>>>>>> Stashed changes
 
 article header{
 }
@@ -231,6 +252,9 @@ body {
 			display: none;
 
 	}
+	.site-wrap{
+
+	}
 	/* SLUTT 400px */
 }
 /* PADDER OG MINDRE SKJERMER*/
@@ -356,5 +380,12 @@ body {
 
 		height: auto;
 
+<<<<<<< Updated upstream
 	}
+=======
+	.site-wrap{
+		flex-direction: column;
+	}
+
+>>>>>>> Stashed changes
 }
