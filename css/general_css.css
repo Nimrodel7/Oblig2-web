@@ -16,6 +16,11 @@
 html {
 	font-size: 16px;
 }
+body {
+	background-image: url(Bilder/bakgrund_test.png), url(Bilder/bakgrund_test.png);
+	background-position: left top, right top;
+	background-repeat: no-repeat, no-repeat;
+}
 .nb {
 	font-weight: bold;
 }
@@ -320,10 +325,6 @@ body {
 	}
 	article p{
 		padding: 1em;
-	}
-	article p:first-letter {
-		font-size: 120%;
-		color:rgba(20,90,200,0.9);
 	}
 
 	footer {
