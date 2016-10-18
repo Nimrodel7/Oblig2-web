@@ -99,19 +99,40 @@ header h1,h2,h3{
 	/* FÅR HEADER TIL Å "HENGE" fast øverst på siden */
 	margin:0 auto;
 }
+<<<<<<< Updated upstream
 
 table, th, td {
     border: 2px solid black;
+=======
+/*TABELL STYLING for prislista*/ 
+table, th, td {
+    border: 0.1rem solid black;
+}
+thead tr th{
+	text-align: center;
+>>>>>>> Stashed changes
 }
 th, td {
     padding: 5px;
     text-align: left;
 }
+<<<<<<< Updated upstream
 tr:hover {background-color: #626163}
+=======
+tr:hover {
+	background-color: #626163;
+}
+>>>>>>> Stashed changes
 table {
     border-collapse: collapse;
 	width: 100%;
 }
+<<<<<<< Updated upstream
+=======
+tbody tr td {
+	/* noe*/ 
+}
+>>>>>>> Stashed changes
 #map {
 		
        		height: 200px;
@@ -167,7 +188,10 @@ p{
 	color: black;
 }
 
+<<<<<<< Updated upstream
 *{font-size: 100%}
+=======
+>>>>>>> Stashed changes
 	
 div > a >img {
 	max-width: 4em;
