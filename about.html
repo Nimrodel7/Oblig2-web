@@ -8,29 +8,7 @@
 	<!-- LEGG TIL KLASSER OSV. SE PÅ INDEX.HTML-->
 	<link rel="stylesheet" media="all" type="text/css" href="css/general_css.css">
 	<link rel="stylesheet" media="all" type="text/css" href="css/hamburgertest2.css">
-	<!--<link rel="stylesheet" media="screen" type="text/css" href="css/style_min320.css">-->
-
-	<!--<link rel="stylesheet" media="all" type="text/css" href="css/general_css.css">-->
-	<!-- <link rel="stylesheet" media="screen" type="text/css" href="css/320px.css">
-	<link rel="stylesheet" media="screen" type="text/css" href="css/480px.css">
-	<link rel="stylesheet" media="screen" type="text/css" href="css/768px.css">
-	<link rel="stylesheet" media="screen" type="text/css" href="css/992px.css">
-	<link rel="stylesheet" media="screen" type="text/css" href="css/1200px.css"> -->
-    <style>
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      #map {
-		padding-left: 10%;
-        height: 75%;
-		width: 75%;
-      }
-	  #authors {
-	  margin-bottom: 30px;
-	  }
-    </style>
+	
   </head>
   <body>
   <nav>
@@ -49,7 +27,12 @@
 	<div class="site-wrap">
 	<header>
 		<h1>Hvordan du kan kontakte oss!</h1>
-		<img src="Bilder/ikoner/ship2.svg" alt="Turist båten" />
+				<picture>
+						<source srcset="Bilder/msstromsfoss_stor.png" media="(min-width: 1200px)">
+						<source srcset="Bilder/msstromsfoss_middel.png" media="(min-width: 640px)">
+						<source srcset="Bilder/msstromsfoss_liten.png" media="(min-width: 320px)">
+						<img src="Bilder/ikoner/ship2.svg" alt="Turist båten" />
+				</picture>
 	</header>
 
 	<div class="socMediaBtn">
@@ -71,7 +54,7 @@
 				 Post: Solvikveien 33, 1630 Gressvik</adress>
 				<p>Telefon, kontor: 930 66 444</p>
 				<p>Telefon, båt: 401 66 444</p>
-				<p>E-post: post@sluseturer.no</p>
+				<p>E-post: <a href="mailto:post@sluseturer.no">post@sluseturer.no</a></p>
 				<p>Sosiale medier: <a href="https://www.facebook.com/haldenkanalensluseturer/?fref=ts">Facebook</a></p>
 				<p></p>
 			</section>
@@ -96,8 +79,13 @@
     src="https://maps.googleapis.com/maps/api/js?v=3.exp&callback=initMap">
     </script>
 	
-	<footer id="authors">
-		<p>Lagd av Patrick, Magne &amp; Joachim</p>
+	<footer>
+			<div class="socMediaBtn">
+				<a href="https://www.facebook.com/haldenkanalensluseturer/">	<img src="Bilder/ikoner/face.svg" alt="Facebook ikon"/>
+				</a>
+				<a href="https://no.wikipedia.org/wiki/Haldenkanalen"><img class="wiki" src="Bilder/ikoner/wikipedia.svg" alt="wikipedia ikon" /></a>
+				<a href="mailto:example@gmail.com"> <img src="Bilder/ikoner/email.svg" alt="email ikon" /></a>
+			</div>
 	</footer>
   </body>
 </html>
