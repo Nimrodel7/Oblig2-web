@@ -136,6 +136,19 @@ article header{
 		width: 75%;
       }
 
+table, th, td {
+    border: 2px solid black;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+tr:hover {background-color: #626163}
+table {
+    border-collapse: collapse;
+	width: 100%;
+}
+
 /*Bildene - legge inn en transition effekt?*/
 
 
@@ -240,7 +253,7 @@ article header{
 	}*/
 	.preview img {
 
-
+	
 
 	}
 
@@ -249,7 +262,7 @@ article header{
 	.thumbnails{
 
 
-	display: none;
+
 	
 
 	} 
@@ -258,9 +271,9 @@ article header{
 
 	.thumbnails img {
 
-			height: 300px;
+			height: 5em;
 
-			width: 250px;
+			width: 5em;
 			
 			display: none;
 
@@ -343,7 +356,7 @@ article header{
 
 	.thumbnails img {
 
-		height: 10em;
+		height: 5em;
 		
 		width: 8em;
 
@@ -379,7 +392,7 @@ article header{
 
 		width: 40em;
 
-		height: auto;
+		height: 20em;
 
 
 	}
