@@ -1,0 +1,14 @@
+/* PADDER OG MINDRE SKJERMER*/
+@media (min-width: 768px) {
+	*{
+		
+	}
+	p{
+		margin: 0;
+	}
+
+	article p {
+		padding: 0.5em;
+		margin: 0 auto;
+	}
+	/*SLUTT 620px */
