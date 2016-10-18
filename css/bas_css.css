@@ -148,17 +148,6 @@ header h1,h2,h3{
 	display: none;
 }
 
-.thumbnails{
-	display: none;
-} 
-
-
-
-.thumbnails img {
-	height: 300px;
-	width: 250px;		
-	display: none;
-}	
 
 p{
 	margin: 0;
@@ -178,28 +167,6 @@ div > a >img {
 	width: 5em;	
 	position: relative; bottom: 17em; left: 17em;		
 }
-
-.thumbnails{
-	display: flex;
-	background: grey;		
-}
-
-.thumbnails img {
-	height: 10em;
-	width: 8em;
-	border: 0.2em solid #555;
-	margin: 0 10px 10px 0;
-	overflow-x: auto;	
-	display: flex;
-}
-
-
-
-.thumbnails img:hover {
-	border: 0.2em solid #00ccff;
-	cursor:pointer;
-}
-
 
 
 .preview img {
