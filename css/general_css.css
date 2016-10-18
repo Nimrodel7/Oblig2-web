@@ -253,7 +253,7 @@ table {
 	}*/
 	.preview img {
 
-	
+	display: none;
 
 	}
 
@@ -271,13 +271,20 @@ table {
 
 	.thumbnails img {
 
-			height: 5em;
+			height: 50%;
 
-			width: 5em;
+			width: 50%;
 			
-			display: none;
+			
 
 	}
+	.thumbnails img:hover {
+
+	height: 100%;
+	
+	width: 100%;
+
+}
 	.site-wrap{
 
 	}
