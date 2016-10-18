@@ -130,17 +130,13 @@ article header{
 	font-family: Arial, Helvetica, sans-serif;
 }*/
 
-/*Bildene - legge inn en transition effekt?*/
+#map {
+		padding-left: 10%;
+        height: 75%;
+		width: 75%;
+      }
 
-#arrowright{
-		
-		height: 5em;
-		
-		width: 5em;
-		
-		position: relative; bottom: 9em; left: 9em;
-		
-}
+/*Bildene - legge inn en transition effekt?*/
 
 
 
@@ -332,15 +328,6 @@ article header{
 		bottom: -1.5em;
 	}
 	/*Bildene */
-	#arrowright{
-	
-		height: 5em;
-		
-		width: 5em;
-		
-		position: relative; bottom: 17em; left: 17em;
-		
-	}
 
 	.thumbnails{
 
