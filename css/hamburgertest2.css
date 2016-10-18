@@ -20,7 +20,6 @@ label[for="nav-trigger"] {
 }
 .navMenu {
 	width: 50%;
-	/*height: 70%;*/
 	border: 1px solid;
 	position: absolute;
 	left: -100%;
