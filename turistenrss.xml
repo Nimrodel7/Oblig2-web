@@ -1,31 +1,45 @@
 <?xml version="1.0" ?>
 <rss version="2.0">
 <channel>
-  <title>D/S Turisten Haldenkanalen</title>
-  <link>http://www.turisten.no</link>
-  <description>Baatreiser i Haldenkanalen</description>
+  <title>Haldenkanalen Sluseturer</title>
+  <link>http://www.ask.hiof.no/fil plassering på serveren/index.html</link>
+  <description>Haldenkanalen Sluseturer - opplev vannets kraft!</description>
   <category>Reise/Turisme</category>
   <language>no</language>
 	<pubDate>Tue,	04	Oct	2016	23:00:00	UTC+01</pubDate>	
-	<lastBuildDate>Tue,	04	Oct	2016	23:30:00	UTC+01</lastBuildDate>	
+	<lastBuildDate>Tue,	18	Oct	2016	14:09:00	UTC+01</lastBuildDate>	
   <image>
       <url>http://turisten.no/media/graphics/turisten_24.jpg</url>
 	  <title>D/S Turisten Haldenkanalen</title>
       <link>http://www.turisten.no</link>
   </image>
   <item>
-      <title>Bestill Tur</title>
-      <link>http://www.turisten.no/booking/</link>
+      <title>Prisliste</title>
+      <link>http://www.ask.hiof.no/ fil plassering på serveren/prisliste.html</link>
       <description>Bestill en reise i Haldenkanalen</description>
 	  <category>Reise</category>
 	  <category>Bestilling</category>
   </item>
   <item>
-      <title>Historie</title>
-      <link>http://www.turisten.no/sider/3/historien/</link>
-      <description>Historien til Haldenkanalen og DS Turisten</description>
+      <title>Praktisk informasjon</title>
+      <link>http://www.ask.hiof.no/ fil plassering på serveren/praktisk.html</link>
+      <description>Praktisk informasjon om turen</description>
 	  <category>Reise</category>
 	  <category>Historie</category>
+    </item>
+    <item>
+      <title>Bildegalleri</title>
+      <link>http://www.ask.hiof.no/ fil plassering på serveren/galleri.html</link>
+      <description>Her er at galleri med bilder av båten og haldenkanalen</description>
+	  <category>Reise</category>
+	  <category>Bilder</category>
+    </item>
+	  <item>
+      <title>Kontaktinformasjon</title>
+      <link>http://www.ask.hiof.no/ fil plassering på serveren/about.html</link>
+      <description>Hvordan du kan kontakte oss!</description>
+	  <category>Reise</category>
+	  <category>Kontakt</category>
     </item>
 </channel>
 </rss> 
