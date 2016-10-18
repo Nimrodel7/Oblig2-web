@@ -4,124 +4,12 @@
 <title>Bildegalleri</title>
 <meta charset="UTF-8" name="" content="">
 
-<!-- <link rel="stylesheet" media="all" type="text/css" href="css/hamburgertest2.css"> -->
+<link rel="stylesheet" media="all" type="text/css" href="css/hamburgertest2.css">
 <link rel="stylesheet" media="all" type="text/css" href="css/general_css.css">
-
-<style>
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-ul {
-  list-style: none;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-nav {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: #555;
-}
-
-ul a {
-  display: block;
-  padding: 20px;
-  font-size: 1em;
-  font-weight: bold;
-  text-align: center;
-  color: #aaa;
-  text-decoration: none;
-}
-
-ul a:hover {
-  background: #eee;
-}
-
-nav li {
-  float: left;
-  width: 20%;
-  border-right: 1px solid #ddd;
-}
-
-nav li:last-child {
-  border-right: none;
-}
-
-
-@media only screen and (max-width: 480px) {
-  
-  .hamburger {
-    padding: 15px;
-    display: block;
-  }
-
-  .line {
-    border-bottom: 4px solid #bbb;
-    width: 35px;
-    margin-bottom: 6px;
-  }
-  
-  .line:last-child {
-    margin-bottom: 0;
-  }
-
-  nav li {
-    width: 100%;
-  }
-  
-  .menu {
-    height: 0;
-    overflow: hidden;
-    transition: height 0.3s linear;
-  }
-  
-  .slide-down {
-    height: 262px;
-  }
-  }
-</style>
-<script>
-window.onload = startup;
-
-function startup() {
-document.getElementsByClassName("hamburger").onclick = hamburgerclick;
-
-}
-function hamburgerclick(){
-document.getElementsByClassName("menu").slideToggle();
-}
-</script>
 </head>
 <body>
-<body>
 
-<header id="Header">
-    <nav>
-      <div href="#" class="hamburger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-      <ul class="clearfix menu">
-        <li><a href="#">Forsiden</a></li>
-        <li><a href="#">Bildegalleri</a></li>
-        <li><a href="#">Bestill</a></li>
-        <li><a href="#">Om Oss</a></li>
-        <li><a href="#">Kontakt</a></li>
-      </ul>
-    </nav>
-</header>
-
-<!-- <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
 	<label for="nav-trigger"></label>
 	<nav class="navMenu">
 		<ul class="navigation">
@@ -131,7 +19,7 @@ document.getElementsByClassName("menu").slideToggle();
 			<li class="nav-item"><a href="#">Om Oss</a></li>
 			<li class="nav-item"><a href="#">Kontakt</a></li>
 		</ul>
-	</nav> -->
+	</nav>
 
 
 
@@ -158,13 +46,12 @@ document.getElementsByClassName("menu").slideToggle();
 
 	<div class="preview" align="center">
 		<img name="preview" src="bilder/bever.jpg" alt=""/>
-		<img src="Bilder/ikoner/play-button.svg" id="arrowright" alt="arrow" onclick="" />
 	</div>
 </section>
 
 </div>
-<button type="button" onclick="showpic(imagenow - 1)">Previous</button>
-<button type="button" onclick="showpic(imagenow + 1)">Next</button>
-
+	<footer id="authors">
+		<p>Lagd av Patrick, Magne &amp; Joachim</p>
+	</footer>
 </body>
 </html>
