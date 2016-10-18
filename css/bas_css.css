@@ -100,7 +100,6 @@ header h1,h2,h3{
 	margin:0 auto;
 }
 
-
 table, th, td {
     border: 2px solid black;
 }
@@ -127,7 +126,7 @@ tbody tr td {
 
 #map {
 		
-       		height: 200px;
+       	height: 200px;
 		width: 100%;
       }
 
