@@ -8,57 +8,58 @@
 <link rel="stylesheet" media="all" type="text/css" href="css/general_css.css">
 </head>
 <body>
+	<div class="background">
+		<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+			<label for="nav-trigger"></label>
+			<nav class="navMenu">
+				<ul class="navigation">
+					<li class="nav-item"><a href="index.html">Forsiden</a></li>
+					<li class="nav-item"><a href="galleri.html">Bildegalleri</a></li>
+					<li class="nav-item"><a href="prisliste.html">Priser</a></li>
+					<li class="nav-item"><a href="about.html">Kontaktinformasjon</a></li>
+					<li class="nav-item"><a href="praktisk.html">Praktisk informasjon</a></li>
+				</ul>
+			</nav>
 
-<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-	<label for="nav-trigger"></label>
-	<nav class="navMenu">
-		<ul class="navigation">
-			<li class="nav-item"><a href="index.html">Forsiden</a></li>
-			<li class="nav-item"><a href="galleri.html">Bildegalleri</a></li>
-			<li class="nav-item"><a href="prisliste.html">Priser</a></li>
-			<li class="nav-item"><a href="about.html">Kontaktinformasjon</a></li>
-			<li class="nav-item"><a href="praktisk.html">Praktisk informasjon</a></li>
-		</ul>
-	</nav>
 
 
+		<div class="site-wrap">
+		<section class="gallery" align="center">
+			<h2>Fotogalleri</h2>
+			<p>Her er et galleri med bilder av b&aring;ten og haldenkanalen</p>
+			 <div class="socMediaBtn">
+					<a href="https://www.facebook.com/haldenkanalensluseturer/">	<img src="Bilder/ikoner/face.svg" alt="Facebook ikon"/>
+					</a>
+					<a href="https://no.wikipedia.org/wiki/Haldenkanalen"><img class="wiki" src="Bilder/ikoner/wikipedia.svg" alt="wikipedia ikon" /></a>
+					<a href="mailto:example@gmail.com"> <img src="Bilder/ikoner/email.svg" alt="email ikon" /></a>
+					
+				</div>
 
-<div class="site-wrap">
-<section class="gallery" align="center">
-	<h2>Fotogalleri</h2>
-	<p>Her er et galleri med bilder av b&aring;ten og haldenkanalen</p>
-	 <div class="socMediaBtn">
-	    	<a href="https://www.facebook.com/haldenkanalensluseturer/">	<img src="Bilder/ikoner/face.svg" alt="Facebook ikon"/>
-	    	</a>
-	    	<a href="https://no.wikipedia.org/wiki/Haldenkanalen"><img class="wiki" src="Bilder/ikoner/wikipedia.svg" alt="wikipedia ikon" /></a>
-	    	<a href="mailto:example@gmail.com"> <img src="Bilder/ikoner/email.svg" alt="email ikon" /></a>
-			
+			<br />
+			<h2>Bildegalleri</h2>
+			<article class="thumbnails">
+				<div id="wrapping">
+				<img onmouseover="preview.src=image1.src" name="image1" src="bilder/bever.jpg" alt=""/>
+				<img onmouseover="preview.src=image2.src" name="image2" src="bilder/bru.jpg" alt=""/>
+				<img onmouseover="preview.src=image3.src" name="image3" src="bilder/dyreliv.jpg" alt=""/>
+				<img onmouseover="preview.src=image4.src" name="image4" src="bilder/mat.jpg" alt=""/>
+				<img onmouseover="preview.src=image5.src" name="image5" src="bilder/turister.jpg" alt=""/>
+				<img onmouseover="preview.src=image6.src" name="image6" src="bilder/vann.jpg" alt=""/>
+				<img onmouseover="preview.src=image7.src" name="image7" src="bilder/10478130_457601794377260_6330887819160736608_n.jpg" alt=""/>
+				<img onmouseover="preview.src=image8.src" name="image8" src="bilder/10514244_466697903467649_3482696668123091390_o.jpg" alt=""/>
+				<img onmouseover="preview.src=image9.src" name="image9" src="bilder/10553895_465368960267210_7102426024978938501_o.jpg" alt=""/>
+				</div>
+			</article><br/>
+
+			<div class="preview" align="center">
+				<img name="preview" src="bilder/bever.jpg" alt=""/>
+			</div>
+		</section>
+
 		</div>
-
-	<br />
-	<h2>Bildegalleri</h2>
-	<article class="thumbnails">
-		<div id="wrapping">
-		<img onmouseover="preview.src=image1.src" name="image1" src="bilder/bever.jpg" alt=""/>
-		<img onmouseover="preview.src=image2.src" name="image2" src="bilder/bru.jpg" alt=""/>
-		<img onmouseover="preview.src=image3.src" name="image3" src="bilder/dyreliv.jpg" alt=""/>
-		<img onmouseover="preview.src=image4.src" name="image4" src="bilder/mat.jpg" alt=""/>
-		<img onmouseover="preview.src=image5.src" name="image5" src="bilder/turister.jpg" alt=""/>
-		<img onmouseover="preview.src=image6.src" name="image6" src="bilder/vann.jpg" alt=""/>
-		<img onmouseover="preview.src=image7.src" name="image7" src="bilder/10478130_457601794377260_6330887819160736608_n.jpg" alt=""/>
-		<img onmouseover="preview.src=image8.src" name="image8" src="bilder/10514244_466697903467649_3482696668123091390_o.jpg" alt=""/>
-		<img onmouseover="preview.src=image9.src" name="image9" src="bilder/10553895_465368960267210_7102426024978938501_o.jpg" alt=""/>
-		</div>
-	</article><br/>
-
-	<div class="preview" align="center">
-		<img name="preview" src="bilder/bever.jpg" alt=""/>
+			<footer id="authors">
+				<p>Lagd av Patrick, Magne &amp; Joachim</p>
+			</footer>
 	</div>
-</section>
-
-</div>
-	<footer id="authors">
-		<p>Lagd av Patrick, Magne &amp; Joachim</p>
-	</footer>
 </body>
 </html>
