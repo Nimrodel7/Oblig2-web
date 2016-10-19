@@ -7,7 +7,7 @@
 label[for="nav-trigger"] {
   /* critical positioning styles */
   position: fixed;
-  left: 7%;
+  left: 5%;
   top: 7%;
   z-index: 2;
   
