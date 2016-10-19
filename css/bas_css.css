@@ -100,28 +100,31 @@ header h1,h2,h3{
 	margin:0 auto;
 }
 
+
+/*TABELL STYLING for prislista*/ 
 table, th, td {
-    border: 2px solid black;
-}
-/*TABELL STYLING for prislista*/  
+    border: 0.1rem solid black;
+} 
 thead tr th {
-	text-align: center;
+	color: red;
 }
 th, td {
-    padding: 5px;
-    text-align: left;
+
 }
 tr:hover {
 	background-color: #626163;
 }
-table {
-    border-collapse: collapse;
+
+#prislista {
+	font-size: 18px;
 	width: 100%;
+    border-collapse: collapse;
+
 }
 
-
+/* prisene på varene */
 tbody tr td {
-	/* noe*/ 
+	color:blue;
 }
 
 #map {
