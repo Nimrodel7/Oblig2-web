@@ -36,6 +36,7 @@ header picture {
 }
 article {
 	background-color: #878787;
+
 	margin: 0 -2em;
 	
 }
@@ -102,29 +103,41 @@ header h1,h2,h3{
 
 
 /*TABELL STYLING for prislista*/ 
-table, th, td {
-    border: 0.1rem solid black;
+table {
+    margin-bottom: 1em;
 } 
 thead tr th {
-	color: red;
-}
-th, td {
 
 }
-tr:hover {
+th, td {
+border: 0.1rem solid black;
+}
+table, th:first-of-type{
+	border-top:none;
+	border-left: none;
+	border-right:none;
+}
+td:hover {
 	background-color: #626163;
 }
 
-#prislista {
+.prislista {
 	font-size: 18px;
 	width: 100%;
     border-collapse: collapse;
 
 }
+.typeTur {
+	border-collapse: collapse;
+	background-color: rgba(57,100,57,1.0);
+}
 
 /* prisene på varene */
 tbody tr td {
-	color:blue;
+	font-style: italic;
+	padding:0.3rem;
+	font-size: 80%;
+	text-align: center;
 }
 
 #map {
