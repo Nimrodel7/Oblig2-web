@@ -1,16 +1,13 @@
 /* PADDER OG MINDRE SKJERMER*/
-@media (min-width: 768px) {
-	*{
-		
-	}
-	p{
-		margin: 0;
-	}
+	
+p{
+	margin: 0;
+}
 
-	article p {
-		padding: 0.5em;
-		margin: 0 auto;
-	}
+article p {
+	padding: 0.5em;
+	margin: 0 auto;
+}
 .background {
 	min-width: 100%;
 	background: linear-gradient(to right, rgba(52,130,232, 0.0), rgba(52,130,232, 1.0), rgba(52,130,232, 1.0), rgba(52,130,232, 0.0));
