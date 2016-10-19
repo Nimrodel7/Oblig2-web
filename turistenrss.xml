@@ -1,45 +1,47 @@
 <?xml version="1.0" ?>
 <rss version="2.0">
 <channel>
-  <title>Haldenkanalen Sluseturer</title>
-  <link>http://www.ask.hiof.no/fil plassering på serveren/index.html</link>
-  <description>Haldenkanalen Sluseturer - opplev vannets kraft!</description>
+  <title>Haldenkanalen Sluseturer - opplev vannets kraft!</title>
+  <link>http://www.ask.hiof.no/~joachie/webutvikling/haldenkanalen</link>
+  <description>Baatreiser i Haldenkanalen</description>
   <category>Reise/Turisme</category>
   <language>no</language>
 	<pubDate>Tue,	04	Oct	2016	23:00:00	UTC+01</pubDate>	
-	<lastBuildDate>Tue,	18	Oct	2016	14:09:00	UTC+01</lastBuildDate>	
+	<lastBuildDate>Wed,	19	Oct	2016	13:30:00	UTC+01</lastBuildDate>	
   <image>
-      <url>http://turisten.no/media/graphics/turisten_24.jpg</url>
+      <url>http://www.ask.hiof.no/~joachie/webutvikling/haldenkanalen</url>
 	  <title>D/S Turisten Haldenkanalen</title>
-      <link>http://www.turisten.no</link>
+      <link>http://www.ask.hiof.no/~joachie/webutvikling/haldenkanalen</link>
+	  <width>100</width>
+	  <height>100</height>
   </image>
   <item>
-      <title>Prisliste</title>
-      <link>http://www.ask.hiof.no/ fil plassering på serveren/prisliste.html</link>
-      <description>Bestill en reise i Haldenkanalen</description>
+      <title>Prislate</title>
+      <link>http://www.ask.hiof.no/~joachie/webutvikling/haldenkanalen</link>
+      <description>Liste over priser for reise i haldenkanalen</description>
 	  <category>Reise</category>
 	  <category>Bestilling</category>
   </item>
   <item>
-      <title>Praktisk informasjon</title>
-      <link>http://www.ask.hiof.no/ fil plassering på serveren/praktisk.html</link>
-      <description>Praktisk informasjon om turen</description>
-	  <category>Reise</category>
-	  <category>Historie</category>
-    </item>
-    <item>
-      <title>Bildegalleri</title>
-      <link>http://www.ask.hiof.no/ fil plassering på serveren/galleri.html</link>
-      <description>Her er at galleri med bilder av båten og haldenkanalen</description>
-	  <category>Reise</category>
-	  <category>Bilder</category>
-    </item>
-	  <item>
       <title>Kontaktinformasjon</title>
-      <link>http://www.ask.hiof.no/ fil plassering på serveren/about.html</link>
-      <description>Hvordan du kan kontakte oss!</description>
+      <link>http://www.ask.hiof.no/~joachie/webutvikling/haldenkanalen</link>
+      <description>Informasjon for kontakt av ansatte</description>
 	  <category>Reise</category>
 	  <category>Kontakt</category>
+    </item>
+	  <item>
+      <title>Praktiskinformasjon</title>
+      <link>http://www.ask.hiof.no/~joachie/webutvikling/haldenkanalen</link>
+      <description>Informasjon relatert til reisen</description>
+	  <category>Reise</category>
+	  <category>Informasjon</category>
+    </item>
+	  <item>
+      <title>Galleri</title>
+      <link>http://www.ask.hiof.no/~joachie/webutvikling/haldenkanalen</link>
+      <description>Informasjon for kontakt av ansatte</description>
+	  <category>Reise</category>
+	  <category>Bilder</category>
     </item>
 </channel>
 </rss> 
